@@ -38,7 +38,11 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div>
+                    @foreach($url as $src)
+                        <img src="{{$src}}" />
+                    @endforeach
+                </div>
             </div>
         </div>
         <!-- <footer>
