@@ -37,9 +37,9 @@ class ZillowAPIController extends Controller
     	}
 
 
-		echo '<pre>';
-	    var_dump($output);
-	    echo '</pre>';
+		// echo '<pre>';
+	 //    var_dump($output);
+	 //    echo '</pre>';
 
 	}
 

@@ -15,4 +15,6 @@
 //     return view('welcome');
 // });
 
-Route::get('/', 'ZillowAPIController@getZestimate')->name('getSearch');
+Route::get('/', 'HomeController@index')->name('index');
+Route::get('houses', 'HouseController@index');
+Route::get('houses/{city}', 'HouseController@show');
