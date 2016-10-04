@@ -1,0 +1,25 @@
+
+.con-icon {
+	width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+ 	margin-bottom: 10px;
+}
+.con-icon i {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin-top: 33px;
+}
+
+#mapBg {
+	height: 280px !important;
+	margin-bottom: -280px !important;	
+}
+
+#show-house .slides img {
+	max-width: 400px;
+	margin: 0 auto;
+}

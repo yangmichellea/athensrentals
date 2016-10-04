@@ -40,29 +40,24 @@
 			
 				<!-- start: Map -->
 				<div class="span6 offset3">
-					
-					<!-- start: Contact Form -->
-					<div id="contact-form">
-
-						<form method="post" action="">
-							
-							<fieldset>
-								
-								<input tabindex="4" id="name" name="name" type="text" value="" class="span12" placeholder="Name" >
-								<input tabindex="2" id="email" name="email" type="text" value="" class="span12" placeholder="Email">
-								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Message"></textarea>
-
-								<div class="actions">
-									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Send message</button>
-								</div>
-								
-							</fieldset>
-
-						</form>
-
+					<div class="span4">
+						<div class="con-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<p class="text-center">athensrentals@gmail.com</p>
 					</div>
-					<!-- end: Contact Form -->
-					
+					<div class="span4">
+						<div class="con-icon">
+							<i class="fa fa-mobile" aria-hidden="true"></i>
+						</div>
+						<p class="text-center">+1 470 000 0000</p>
+					</div>
+					<div class="span4">
+						<div class="con-icon">
+							<i class="fa fa-skype" aria-hidden="true"></i>
+						</div>
+						<p class="text-center">athensrentals</p>
+					</div>
 
 				</div>
 				<!-- end: Map -->

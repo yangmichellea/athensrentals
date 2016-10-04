@@ -18,13 +18,9 @@
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-									<li><a href="#" class="home">Home</a></li>
-			              			<li><a href="#" class="services">Services</a></li>
-									<li><a href="#" class="pricing">Pricing</a></li>
-									<li><a href="#" class="portfolio">Portfolio</a></li>
-									<li><a href="#" class="about">About</a></li>
-									<li><a href="#" class="team">Team</a></li>
-									<li><a href="#" class="contact">Contact</a></li>
+									<li><a href="{{URL::route('index')}}" class="home">Home</a></li>
+									<li><a href="{{URL::route('houses')}}">Houses</a></li>
+									<li><a href="{{URL::route('index')}}#contact" class="contact">Contact</a></li>
 			            		</ul>
 			          		</div>
 			        	</div>

@@ -2,7 +2,7 @@
     <head>
 		<!-- start: Meta -->
 		<meta charset="utf-8">
-		<title>App Name - @yield('title')</title> 
+		<title>Athens Rentals - @yield('title')</title> 
 		<meta name="description" content="Essentia Responsive Bootstrap Theme by Bootstrap Master"/>
 		<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
 		<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
@@ -27,7 +27,6 @@
     	<!-- @yield('sidebar') -->
 
         @yield('content')	
-        @include('includes.contact')
         @include('partials.footer')
         @include('includes.scripts')
 
