@@ -71,7 +71,7 @@
             <div class="row text-xs-left">
                 <div class="col-md-6">
                     <a href="#portfolioModal1" class="portfolio-link">
-                        <img src="img/houses/buford.jpg" class="img-fluid" alt="">
+                        <img src="img/houses/deerfield.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-md-6">
@@ -83,12 +83,12 @@
                             <i class="fa fa-bed" aria-hidden="true"></i> 3 beds
                         </span>
                         <span>
-                            <i class="fa fa-bath" aria-hidden="true"></i> 2.5 baths
+                            <i class="fa fa-bath" aria-hidden="true"></i> 1.5 baths
                         </span> 
                         <span>
-                            <i class="fa fa-map" aria-hidden="true"></i> 2,346 sqft
+                            <i class="fa fa-map" aria-hidden="true"></i> 1,398 sqft
                         </span>
-                        <h4 class="theme-color">$178,162</h4>
+                        <h4 class="theme-color">$257,578</h4>
                         <p class="text-muted">332 SE 11th St Deerfield Beach, FL is a single family home that contains 1,398 sq ft and was built in 1971. It contains 3 bedrooms and 1.5 bathrooms. This home last sold for $71,500 in June 1993. It contains 3 bedrooms and 1.5 bathrooms.</p>
                     </div>
                 </div>

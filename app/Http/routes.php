@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('index');
 });
-// Route::get('/houses', 'UserController@getUserTest');
+
+Route::get('/house/{city}', 'HouseController@show');
