@@ -16,20 +16,14 @@ var banner = ['/*!\n',
     ''
 ].join('');
 
-// Compile LESS files from /less into /css
-gulp.task('less', function() {
-    return gulp.src('resources/assets/less/agency.less')
-        .pipe(less())
-        .pipe(header(banner, { pkg: pkg }))
-        .pipe(gulp.dest('public/css'))
-        .pipe(browserSync.reload({
-            stream: true
-        }))
+gulp.task('watch', function() {
+    gulp.watch("resources/assets/less/*.less", ["less"]);
+    
 });
 
 // Compile LESS files from /less into /css
 gulp.task('less', function() {
-    return gulp.src('resources/assets/less/custom.less')
+    return gulp.src('resources/assets/less/agency.less')
         .pipe(less())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('public/css'))

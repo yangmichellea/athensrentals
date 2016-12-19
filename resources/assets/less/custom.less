@@ -1,20 +1,27 @@
-@import "variables.less";
+.theme-color {
+    color: @theme-primary !important;
+}
 
 .house-heading {
     margin-bottom: 0;
 }
-
 .house-subheading {
     margin-top: 0;
 }
-
-.house-details i {
-    color: @theme-primary !important;
+.house-details {
+	i {
+    	color: @theme-primary !important;
+    }
     h4 {
         font-size: 1.5rem;
+        margin-top: .5rem;
     }
 }
 
-.theme-color {
-    color: @theme-primary !important;
+footer {
+	background-color: @gray-darker;
+	color: @gray-light;
+	.fa {
+    	line-height: 40px !important;
+	}
 }

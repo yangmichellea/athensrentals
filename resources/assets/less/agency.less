@@ -1,5 +1,6 @@
 @import "variables.less";
 @import "mixins.less";
+@import "custom.less";
 
 // Global Components
 
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
                     .heading-font;
                     font-weight: 400;
                     letter-spacing: 1px;
-                    color: white;
+                    color: black;
                     &:hover,
                     &.active {
                         color: @theme-primary;
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
             }
         }
         &.navbar-shrink {
-            background-color: @gray-darker;
+            background-color: white;
             padding: 5px 0;
             .navbar-brand {
                 padding: 0.65em 0;
@@ -507,7 +508,7 @@ aside.clients {
 
 section#contact {
     background-color: @gray-darker;
-    background-image: url('../img/map-image.png');
+    //background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {
@@ -582,13 +583,13 @@ ul.social-buttons {
     li {
         a {
             display: block;
-            background-color: @gray-darker;
+            background-color: @gray-light;
             height: 40px;
             width: 40px;
             border-radius: 100%;
             font-size: 20px;
             line-height: 40px;
-            color: white;
+            color: @gray-lighter;
             outline: none;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
@@ -597,6 +598,7 @@ ul.social-buttons {
             &:focus,
             &:active {
                 background-color: @theme-primary;
+                color: white;
             }
         }
     }
