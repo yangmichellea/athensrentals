@@ -1,8 +1,6 @@
 @extends('layouts.master')
-
+@include('partials.header')
 @section('title', 'Home')
-
-
 @section('content')
 
     <!-- Houses Section -->

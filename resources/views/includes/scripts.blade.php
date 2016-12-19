@@ -12,8 +12,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 <!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
+<script src="{{ URL::asset('js/jqBootstrapValidation.js')}}"></script>
+<script src="{{ URL::asset('js/contact_me.js')}}"></script>
 
 <!-- Theme JavaScript -->
-<script src="js/agency.min.js"></script>
+<script src="{{ URL::asset('js/agency.min.js')}}"></script>

@@ -43,7 +43,6 @@
 	        </div>
 	    </nav>
 
-    	@include('partials.header')
     	<!-- @yield('sidebar') -->
 
         @yield('content')	

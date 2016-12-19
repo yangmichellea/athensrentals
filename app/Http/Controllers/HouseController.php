@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\House;
 
 class HouseController extends Controller
 {
@@ -18,11 +19,11 @@ class HouseController extends Controller
 
     public function show($zpid)
     {
-        $house = House::getHouseDetails($zpid);
-        $zestimate = House::getHouseZestimate($zpid);
+        // $house = House::getHouseDetails($zpid);
+        // $zestimate = House::getHouseZestimate($zpid);
 
-	    return view('houses.show')
-                ->with('house', $house)
-                ->with('zestimate', $zestimate); 
+	    return view('houses.show');
+                // ->with('house', $house)
+                // ->with('zestimate', $zestimate); 
     }
 }
