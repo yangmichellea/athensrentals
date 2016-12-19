@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/house/{city}', 'HouseController@show');
+Route::get('houses', 'HouseController@index')->name('houses');
+Route::get('houses/{zpid}', 'HouseController@show')->name('house');
