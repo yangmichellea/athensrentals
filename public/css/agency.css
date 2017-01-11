@@ -9,11 +9,10 @@
   color: white;
 }
 .house-heading {
-  margin-top: 0.5rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 .house-subheading {
-  margin-top: 0;
+  margin-bottom: 2rem;
 }
 .house-details i {
   color: #507DBC !important;
@@ -21,6 +20,9 @@
 .house-details h4 {
   font-size: 1.5rem;
   margin-top: .5rem;
+}
+.house-details p {
+  margin-top: 2rem;
 }
 footer {
   background-color: #222222;

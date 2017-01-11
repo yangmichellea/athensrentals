@@ -37,6 +37,7 @@
 	                    <h4 class="theme-color">$310,375</h4>
 	                    <p class="text-muted">PRICE REDUCED AGAIN!NEW PAINT AND CARPET. Absolutely b'ful. Nicely laid out floor plan. Located in Windsor at Lanier, lots of space for your family here. Come inside and see the hdwds, frml living and dining rms to host your parties. Big bright and sunny kitchen with upgraded cherry cabinets and wonderful brkfst nook. Huge...</p>
                     </div>
+                    <a href="{{route('show_house',['zpid'=>'58608274'])}}">Read more...</a>
                 </div>
             </div>
         </div>
@@ -67,6 +68,7 @@
 	                    <h4 class="theme-color">$178,162</h4>
                     	<p class="text-muted">Rocking Chair Porch, Corner Lot, Fenced Yard. Nice Family Room With Fireplace, Hardwood Floors throughout first floor. Eat In Kitchen, updated Kitchen with stainless steel appliances, Huge Master Basement With 2 Car Garage. Huge fenced in back yard.Beautiful home for the money. A MUST SEE!Neighborhood DescriptionExcellent...</p>
                     </div>
+                    <a href="{{route('show_house',['zpid'=>'14712194'])}}">Read more...</a>
                 </div>
             </div>
         </div>
@@ -97,6 +99,7 @@
                         <h4 class="theme-color">$257,578</h4>
                         <p class="text-muted">332 SE 11th St Deerfield Beach, FL is a single family home that contains 1,398 sq ft and was built in 1971. It contains 3 bedrooms and 1.5 bathrooms. This home last sold for $71,500 in June 1993. It contains 3 bedrooms and 1.5 bathrooms.</p>
                     </div>
+                    <a href="{{route('show_house',['zpid'=>'42929416'])}}">Read more...</a>
                 </div>
             </div>
         </div>
