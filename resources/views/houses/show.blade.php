@@ -2,6 +2,66 @@
 @section('title', 'House')
 @section('content')
 
+
+    <section class="bg-theme-color">
+        <div class="container">
+            <div class="row text-xs-right">
+                <div class="col-md-6">
+                    <h4 class="house-heading">2992 Summit Peak Way,</h4>
+                    <h4 class="house-subheading">Snellville, GA 30078</h4>
+
+                    <div class="house-details">
+	                    <span>
+	                    	<i class="fa fa-bed" aria-hidden="true"></i> 3 beds
+	                    </span>
+	                    <span>
+	                    	<i class="fa fa-bath" aria-hidden="true"></i> 2.5 baths
+	                    </span> 
+	                    <span>
+	                    	<i class="fa fa-map" aria-hidden="true"></i> 2,346 sqft
+	                    </span>
+	                    <h4 class="theme-color">$178,162</h4>
+                    	<p class="text-muted">Rocking Chair Porch, Corner Lot, Fenced Yard. Nice Family Room With Fireplace, Hardwood Floors throughout first floor. Eat In Kitchen, updated Kitchen with stainless steel appliances, Huge Master Basement With 2 Car Garage. Huge fenced in back yard.Beautiful home for the money. A MUST SEE!Neighborhood DescriptionExcellent...</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+                        		<img src="{{ URL::asset('img/portfolio/dreams.png')}}" class="img-fluid" alt="">
+							</div>
+
+							<div class="item">
+                        		<img src="{{ URL::asset('img/portfolio/dreams.png')}}" class="img-fluid" alt="">
+							</div>
+
+						</div>
+
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <section>
 
 2992 Summit Peak Way,

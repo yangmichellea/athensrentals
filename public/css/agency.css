@@ -1,18 +1,22 @@
 /*!
  * Start Bootstrap -  v ()
- * Copyright 2013-2016 
+ * Copyright 2013-2017 
  */
 .theme-color {
-  color: #0750b6 !important;
+  color: #507DBC !important;
+}
+.intro-text {
+  color: white;
 }
 .house-heading {
+  margin-top: 0.5rem;
   margin-bottom: 0;
 }
 .house-subheading {
   margin-top: 0;
 }
 .house-details i {
-  color: #0750b6 !important;
+  color: #507DBC !important;
 }
 .house-details h4 {
   font-size: 1.5rem;
@@ -25,6 +29,22 @@ footer {
 footer .fa {
   line-height: 40px !important;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+.bg-circle i {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #DAE3E5;
+}
+#mainNav:not(.navbar-shrink) a.navbar-brand.page-scroll {
+  display: none;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -33,19 +53,19 @@ body {
   color: #777777 !important;
 }
 .text-primary {
-  color: #0750b6 !important;
+  color: #507DBC !important;
 }
 p {
   line-height: 1.75;
 }
 a {
-  color: #0750b6;
+  color: #507DBC;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #053a85;
+  color: #3c649d;
 }
 h1,
 h2,
@@ -62,15 +82,15 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #f7f7f7;
 }
 .bg-darkest-gray {
   background-color: #222222;
 }
 .btn-primary {
   color: white;
-  background-color: #0750b6;
-  border-color: #0750b6;
+  background-color: #507DBC;
+  border-color: #507DBC;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -82,8 +102,8 @@ h6 {
 .btn-primary:active:focus,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #053a85;
-  border-color: #05367b;
+  background-color: #3c649d;
+  border-color: #396096;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -105,17 +125,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #0750b6;
-  border-color: #0750b6;
+  background-color: #507DBC;
+  border-color: #507DBC;
 }
 .btn-primary .badge {
-  color: #0750b6;
+  color: #507DBC;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #0750b6;
-  border-color: #0750b6;
+  background-color: #507DBC;
+  border-color: #507DBC;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -130,8 +150,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active:focus,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #053a85;
-  border-color: #05367b;
+  background-color: #3c649d;
+  border-color: #396096;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -153,11 +173,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #0750b6;
-  border-color: #0750b6;
+  background-color: #507DBC;
+  border-color: #507DBC;
 }
 .btn-xl .badge {
-  color: #0750b6;
+  color: #507DBC;
   background-color: white;
 }
 #mainNav {
@@ -168,14 +188,14 @@ fieldset[disabled] .btn-xl.active {
   padding: 0;
 }
 #mainNav .container .navbar-brand {
-  color: #0750b6;
+  color: #507DBC;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 #mainNav .container .navbar-brand:hover,
 #mainNav .container .navbar-brand:focus,
 #mainNav .container .navbar-brand:active,
 #mainNav .container .navbar-brand.active {
-  color: #053a85;
+  color: #3c649d;
 }
 #mainNav .container .btn-toggle {
   padding: .75em;
@@ -188,11 +208,11 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: black;
+  color: white;
 }
 #mainNav .container .navbar-nav .nav-item .nav-link:hover,
 #mainNav .container .navbar-nav .nav-item .nav-link.active {
-  color: #0750b6;
+  color: #507DBC;
 }
 @media (min-width: 768px) {
   #mainNav {
@@ -213,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 1.2em 0.4em !important;
   }
   #mainNav.navbar-shrink {
-    background-color: white;
+    background-color: #222222;
     padding: 5px 0;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -254,14 +274,14 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 160px;
+    padding-bottom: 340px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
@@ -309,7 +329,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(7, 80, 182, 0.9);
+  background: rgba(80, 125, 188, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -417,7 +437,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #0750b6;
+  background-color: #507DBC;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -571,34 +591,34 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #0750b6;
+  border-color: #507DBC;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #f7f7f7;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #f7f7f7;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #f7f7f7;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #f7f7f7;
 }
 section#contact .text-danger {
   color: #e74c3c;
@@ -633,7 +653,7 @@ ul.social-buttons li a {
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: #eeeeee;
+  color: #f7f7f7;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -642,7 +662,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #0750b6;
+  background-color: #507DBC;
   color: white;
 }
 .btn:focus,
@@ -727,11 +747,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #0750b6;
+  background: #507DBC;
 }
 ::selection {
   text-shadow: none;
-  background: #0750b6;
+  background: #507DBC;
 }
 img::selection {
   background: transparent;
@@ -740,5 +760,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0750b6;
+  webkit-tap-highlight-color: #507DBC;
 }

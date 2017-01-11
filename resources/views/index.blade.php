@@ -6,9 +6,17 @@
     <!-- Houses Section -->
     <section id="houses">
         <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-xs-center">
+                    <h2 class="section-heading">Houses</h2>
+                    <h3 class="section-subheading text-muted">Take a peek at our available houses</h3>
+                </div>
+            </div>
+
             <div class="row text-xs-left">
                 <div class="col-md-6">
-                    <a href="#portfolioModal1" class="portfolio-link">
+                    <a href="{{route('show_house',['zpid'=>'58608274'])}}" class="portfolio-link">
                         <img src="img/houses/buford.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
@@ -17,13 +25,13 @@
                     <h4 class="house-subheading">Buford, GA 30518</h4>
 
                     <div class="house-details">
-	                    <span>
+                        <span class="bg-circle">
 	                    	<i class="fa fa-bed" aria-hidden="true"></i> 4 beds
 	                    </span>
-	                    <span>
+                        <span class="bg-circle">
 	                    	<i class="fa fa-bath" aria-hidden="true"></i> 2.5 baths
 	                    </span> 
-	                    <span>
+                        <span class="bg-circle">
 	                    	<i class="fa fa-map" aria-hidden="true"></i> 3,679 sqft
 	                    </span>
 	                    <h4 class="theme-color">$310,375</h4>
@@ -38,7 +46,7 @@
         <div class="container">
             <div class="row text-xs-left">
                 <div class="col-md-6">
-                    <a href="#portfolioModal1" class="portfolio-link">
+                    <a href="{{route('show_house',['zpid'=>'14712194'])}}" class="portfolio-link">
                         <img src="img/houses/snellville.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
@@ -47,13 +55,13 @@
                     <h4 class="house-subheading">Snellville, GA 30078</h4>
 
                     <div class="house-details">
-	                    <span>
+	                    <span class="bg-circle">
 	                    	<i class="fa fa-bed" aria-hidden="true"></i> 3 beds
 	                    </span>
-	                    <span>
+                        <span class="bg-circle">
 	                    	<i class="fa fa-bath" aria-hidden="true"></i> 2.5 baths
 	                    </span> 
-	                    <span>
+                        <span class="bg-circle">
 	                    	<i class="fa fa-map" aria-hidden="true"></i> 2,346 sqft
 	                    </span>
 	                    <h4 class="theme-color">$178,162</h4>
@@ -68,7 +76,7 @@
         <div class="container">
             <div class="row text-xs-left">
                 <div class="col-md-6">
-                    <a href="#portfolioModal1" class="portfolio-link">
+                    <a href="{{route('show_house',['zpid'=>'42929416'])}}" class="portfolio-link">
                         <img src="img/houses/deerfield.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
@@ -77,13 +85,13 @@
                     <h4 class="house-subheading">Deerfield Beach, FL 33441</h4>
 
                     <div class="house-details">
-                        <span>
+                        <span class="bg-circle">
                             <i class="fa fa-bed" aria-hidden="true"></i> 3 beds
                         </span>
-                        <span>
+                        <span class="bg-circle">
                             <i class="fa fa-bath" aria-hidden="true"></i> 1.5 baths
                         </span> 
-                        <span>
+                        <span class="bg-circle">
                             <i class="fa fa-map" aria-hidden="true"></i> 1,398 sqft
                         </span>
                         <h4 class="theme-color">$257,578</h4>

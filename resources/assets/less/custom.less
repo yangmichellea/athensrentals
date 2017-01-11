@@ -1,8 +1,11 @@
 .theme-color {
     color: @theme-primary !important;
 }
-
+.intro-text {
+	color: white;
+}
 .house-heading {
+    margin-top: 0.5rem;
     margin-bottom: 0;
 }
 .house-subheading {
@@ -24,4 +27,26 @@ footer {
 	.fa {
     	line-height: 40px !important;
 	}
+}
+
+//slider
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.bg-circle {    
+	i {
+		width: 30px;
+		height: 30px;
+		padding: 6px 0;
+		border-radius: 15px;
+		text-align: center;
+		background-color: @theme-light;
+	}
+}
+
+#mainNav:not(.navbar-shrink) a.navbar-brand.page-scroll {
+	display: none;
 }
