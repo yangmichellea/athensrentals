@@ -17,3 +17,19 @@
 
 <!-- Theme JavaScript -->
 <script src="{{ URL::asset('js/agency.min.js')}}"></script>
+
+<script src="{{ URL::asset('js/unslider.js')}}"></script>
+
+<script>
+	jQuery(document).ready(function($) {
+		$('.my-slider').unslider({
+			infinite: true,
+			autoplay: true,
+			arrows: {
+			//  Unslider default behaviour
+			// prev: '<a class="unslider-arrow prev">Previous</a>',
+			// next: '<a class="unslider-arrow next">Next</a>',
+		}
+		});
+	});
+</script>	

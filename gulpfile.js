@@ -18,7 +18,7 @@ var banner = ['/*!\n',
 
 gulp.task('watch', function() {
     gulp.watch("resources/assets/less/*.less", ["less"]);
-    
+
 });
 
 // Compile LESS files from /less into /css
@@ -83,9 +83,7 @@ gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
-        server: {
-            baseDir: ''
-        },
+        proxy: "localhost/athensrentals/public"
     })
 })
 
@@ -94,9 +92,9 @@ gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() 
     gulp.watch('resources/less/*.less', ['less']);
     gulp.watch('public/css/*.css', ['minify-css']);
     gulp.watch('public/js/*.js', ['minify-js']);
-    // Reloads the browser whenever HTML or JS files change
-    gulp.watch('*.html', browserSync.reload);
-    gulp.watch('js/**/*.js', browserSync.reload);
+    // Reloads the browser whenever PHP or JS files change
+    gulp.watch('*.php', browserSync.reload);
+    gulp.watch('public/js/*.js', browserSync.reload);
 });
 
 // Compiles SCSS files from /scss into /css

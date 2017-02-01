@@ -5,14 +5,31 @@
 .theme-color {
   color: #507DBC !important;
 }
+.bg-circle i {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #DAE3E5;
+}
 .intro-text {
   color: white;
+}
+.intro-heading img {
+  width: 100%;
+  max-width: 690px;
 }
 .house-heading {
   margin: 0;
 }
+@media (max-width: 768px) {
+  .house-heading {
+    margin-top: 1rem;
+  }
+}
 .house-subheading {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .house-details i {
   color: #507DBC !important;
@@ -22,7 +39,20 @@
   margin-top: .5rem;
 }
 .house-details p {
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  #mainNav:not(.navbar-shrink) .container a.navbar-brand.page-scroll {
+    display: none;
+  }
+}
+#mainNav:not(.navbar-shrink) .container .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
 }
 footer {
   background-color: #222222;
@@ -30,22 +60,6 @@ footer {
 }
 footer .fa {
   line-height: 40px !important;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 70%;
-  margin: auto;
-}
-.bg-circle i {
-  width: 30px;
-  height: 30px;
-  padding: 6px 0;
-  border-radius: 15px;
-  text-align: center;
-  background-color: #DAE3E5;
-}
-#mainNav:not(.navbar-shrink) a.navbar-brand.page-scroll {
-  display: none;
 }
 body {
   overflow-x: hidden;

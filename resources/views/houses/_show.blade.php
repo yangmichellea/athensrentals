@@ -2,8 +2,6 @@
 @section('title', $house->address->city)
 @section('content')
 
-
-
 <div id="show-house" class="color white">
 		<!--start: Container -->
 		<div class="container">

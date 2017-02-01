@@ -35,10 +35,6 @@ class House extends Model
     	}
 
     	return $output;
-		// echo '<pre>';
-	 //    var_dump($output);
-	 //    echo '</pre>';
-
 	}
 
 	public static function getHouseDetails($zpid)

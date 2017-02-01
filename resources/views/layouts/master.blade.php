@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
 		<!-- start: Meta -->
 		<meta charset="utf-8">
@@ -20,6 +20,7 @@
 		<!-- end: Facebook Open Graph -->
 
         @include('includes.css')
+        
     </head>
 	<body id="page-top">
 
@@ -48,6 +49,5 @@
         @yield('content')	
         @include('partials.footer')
         @include('includes.scripts')
-
     </body>
 </html>
