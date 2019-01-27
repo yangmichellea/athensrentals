@@ -1,34 +1,38 @@
-<html>
-    <head>
-		<!-- start: Meta -->
-		<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
 		<title>Athens Rentals - @yield('title')</title> 
-		<meta name="description" content="Essentia Responsive Bootstrap Theme by Bootstrap Master"/>
-		<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
-		<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
-		<!-- end: Meta -->
-		
-		<!-- start: Mobile Specific -->
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="description" content="Athens Rentals and Home Services">
+		<meta name="keywords" content="HTML, Laravel, web, css3">
+		<meta name="author" content="Michelle Yang">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<!-- end: Mobile Specific -->
-		
+
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content=""/>
-		<meta property="og:description" content=""/>
+		<meta property="og:title" content="Athens Rentals"/>
+		<meta property="og:description" content="Rentals and Home Services"/>
 		<meta property="og:type" content=""/>
 		<meta property="og:url" content=""/>
 		<meta property="og:image" content=""/>
 		<!-- end: Facebook Open Graph -->
 
-        @include('includes.css')
-    </head>
-    <body>
-    	@include('partials.header')
-    	<!-- @yield('sidebar') -->
+		@include('includes.css')
+	</head>
+	<body class="landing">
 
-        @yield('content')	
-        @include('partials.footer')
-        @include('includes.scripts')
+<!-- Page Wrapper -->
+	<div id="page-wrapper">
+	     
+			@include('partials.header')
+			<!-- @yield('sidebar') -->
 
-    </body>
+			@yield('content')	
+			@include('partials.footer')
+	</div>
+	@include('includes.scripts')
+
+	</body>
 </html>

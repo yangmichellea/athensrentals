@@ -1,76 +1,55 @@
 
-	<!-- start: 7th Page - Contact -->
-	<div id="mapBg"></div>
-	<div id="contact" class="color blue transparent">
-		
-		<!--start: Container -->
-		<div class="container">
+     <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5" class="wrapper white">
+          <div class="container">
+               <div class="row">
+	<!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+	-->
+                    <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
+                         <div id="google-map">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
+                         </div>
+                    </div>    
 
-			<!--start: Wrapper -->
-			<div class="wrapper span12">
+                    <div class="col-md-6 col-sm-12">
 
-				
-	
-			<!-- start: Page Title -->
-			<div id="page-title">
+                         <div class="col-md-12 col-sm-12">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                                   <h2>Contact Us</h2>
+                              </div>
+                         </div>
 
-				<div id="page-title-inner">
+                         <!-- CONTACT FORM -->
+                         <form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
 
-						<h2><span>Contact</span></h2>
+                              <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
+                              <h6 class="text-success">Your message has been sent successfully.</h6>
+                              
+                              <!-- IF MAIL NOT SENT -->
+                              <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
 
-				</div>	
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">
+                              </div>
 
-			</div>
-			<!-- end: Page Title -->
-			
-			<!-- start: Row -->
-			<div class="row-fluid">		
-				
-				<div class="span12 text-center">
-					<p>Send us a message!</p>
-				</div>	
-			
-			</div>
-			<!-- end: Row -->
-			
-			<hr class="clean">
-			
-			<!-- start: Row -->
-			<div class="row-fluid">		
-			
-				<!-- start: Map -->
-				<div class="span6 offset3">
-					<div class="span4">
-						<div class="con-icon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<p class="text-center">athensrentals@gmail.com</p>
-					</div>
-					<div class="span4">
-						<div class="con-icon">
-							<i class="fa fa-mobile" aria-hidden="true"></i>
-						</div>
-						<p class="text-center">+1 470 000 0000</p>
-					</div>
-					<div class="span4">
-						<div class="con-icon">
-							<i class="fa fa-skype" aria-hidden="true"></i>
-						</div>
-						<p class="text-center">athensrentals</p>
-					</div>
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">
+                              </div>
 
-				</div>
-				<!-- end: Map -->
-				
-			
-			</div>
-			<!-- end: Row -->
+                              <div class="col-md-12 col-sm-12">
+                                   <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
 
-			</div>
-			<!-- end: Wrapper -->
-		
-		</div>
-		<!--end: Container -->
-		
-	</div>
-	<!-- end: 7th Page - Contact -->
+                                   <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="Tell us more"></textarea>
+
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
+                              </div>
+                         </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>          
